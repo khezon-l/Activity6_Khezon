@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khezon's Creatives</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { overflow-x: hidden; width: 100%; }
+    body { font-family: Arial, sans-serif; background: #f0f0f0; text-align: center; min-height: 100vh; display: flex; flex-direction: column; }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 25px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    .brand {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 28px;
+      letter-spacing: 2px;
+    }
+    nav {
+      margin-top: 15px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      background: #3a3a3a;
+      padding: 10px 22px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    .content-card {
+      background: white;
+      border-radius: 20px;
+      width: 92%;
+      max-width: 900px;
+      margin: 120px auto 30px auto;
+      padding: 30px 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+    .photo-row { display: flex; gap: 8px; justify-content: center; flex-wrap: nowrap; margin-bottom: 25px; }
+    .photo-row img {
+      width: 30%;
+      aspect-ratio: 1 / 1;
+      max-width: 180px;
+      border-radius: 50%;
+      border: 4px solid #FFD700;
+      object-fit: cover;
+    }
+    h1 { text-transform: uppercase; margin: 20px 0 10px; font-size: 24px; }
+    .tagline { color: #777; font-style: italic; margin-bottom: 12px; }
+    .description { color: #555; line-height: 1.6; margin: 0 auto 20px; font-size: 14px; max-width: 600px; }
+    .btn-learn { background: #222; color: white; border: none; padding: 12px 30px; border-radius: 25px; text-transform: uppercase; font-weight: bold; cursor: pointer; }
+
+    footer { margin-top: auto; background: black; color: white; padding: 18px; font-size: 13px; width: 100%; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">Khezon's Creatives</div>
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="gallery.html">GALLERY</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </header>
+
+  <div class="content-card">
+    <div class="photo-row">
+      <img src="b6c9fd82b5634c0fb45c0adf560e8809.jpg" alt="Creator">
+      <img src="images.jpg" alt="Creator">
+      <img src="c6e6967ee5b41413aedf8032df3a002b.jpg" alt="Creator">
+    </div>
+    <h1>Experience The Creative.</h1>
+    <p class="tagline">Crafting Ideas Into Reality</p>
+    <p class="description">Welcome to Khezon's Creatives, where imagination meets hairballs. We bring your visions to life by knockin' them off the table and batting them under the couch until they look perfect.</p>
+    <a href="about.html">
+      <button class="btn-learn">Learn More</button>
+    </a>
+  </div>
+
+  <footer>© 2026 Khezon's Creatives</footer>
+
+</body>
+</html>
